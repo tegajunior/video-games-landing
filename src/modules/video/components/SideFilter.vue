@@ -21,7 +21,7 @@
           class="input-control"
           v-model.trim="form.score"
           placeholder="1 - 10"
-          @change="filterByScore"
+          @input="filterByScore"
         />
       </div>
       <div class="form-control-div order">
